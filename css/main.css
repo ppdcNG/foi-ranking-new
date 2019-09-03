@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika', sans-serif;
+}
+
+/* *** reuseable style *** */
+
+.ppdc-green-bg {
+    background-color: #006c37;
+}
+
+.ppdc-green-bg * {
+    color: #fff !important;
+}
+
+.ppdc-green-text {
+    color: #006c37;
+}
+
+/* *** resuable styles *** */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    box-shadow: #424242 0 -1px 2px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #424242;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#sideNav {
+    display: none;
+    background: #006c37;
+}
+
+#sideNav span {
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    line-height: 2.5;
+}
+
+.nav-item.active {
+    background: #0d2e1e;
+    box-shadow: #424242 0 0 2px;
+}
+
+.nav .active {
+    background: #006c37;
+    color: #fff;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.navbar-nav .nav-item:focus, .navbar-nav .nav-item:hover {
+    background: #1b8550;
+}
+
+.section-tabs a.nav-link {
+    color: #006c37;
+}
+
+.section-tabs a.nav-link.active {
+    background: initial;
+    color: #424242;
+    border-bottom: 2px solid #424242;
+}
+
+.table th {
+    font-weight: bold;
+    font-size: large;
+}
+
+#footer-top {
+    height: 25vh;
+}
+
+footer img {
+    width: 10vw;
+}
+
+main {
+    margin-top: 12vh;
+}
+
+main #banner {
+    height: 50vh;
+    background: url(../img/maglass.jpg) no-repeat;
+    background-size: 100% 100%;
+    /* background-position: right; */
+}
+main #banner > div{
+    height: 50vh;
+    background: linear-gradient(to right, rgb(12, 12, 12) 0%, transparent 70%);
+}
+
+#index-cards .card {
+    width: 40%;
+}
+
+.clicked {
+    transform: scale(1.05);
+    margin: 1em 0;
+}
+
+#hover-card:hover,
+#hover-card:focus {
+    cursor: pointer;
+    content: 'lorem ipsum'
+}
+
+.accordion ul {
+    list-style-type: none;
+}
+.accordion ul li::before {
+    content:'\25BA';
+}
+
+/* media queries */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #sideNav {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #sideNav {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+    main {
+        margin-top: initial;
+    }
+}
+
+.brand-logo {
+    filter: brightness(0) invert(1);
+}

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rankings</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Signika:300&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
+    <!-- Custom style -->
+    <link rel="stylesheet" href="../css/main.css" />
+</head>
+
+<body>
+    <header>
+        <!--Navbar -->
+        <nav class="mb-1 navbar navbar-expand-lg ppdc-green-bg fixed-top">
+
+            <a class="navbar-brand brand-logo" href="../index.html">
+                <img src="../img/ppdclogo.png" alt="ppdc-logo" width="200">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+                aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="active-link">Rankings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Comparisons</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#">Our Methodology</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#">Common Excuses</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#">Possible Outcomes</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--/.Navbar -->
+
+        <!-- sidenav -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#" class="active-link">Rankings</a>
+            <a href="#">Comparisons</a>
+            <a href="#">Our Methodology</a>
+            <a href="#">Common Excuses</a>
+            <a href="#">Possible Outcomes</a>
+        </div>
+
+        <!-- open sidenav -->
+        <div id="sideNav" class="p-3">
+            <div class="container-fluid">
+                <span id="openSideNav" onclick="openNav()"><i class="fas fa-bars"></i></span>
+                <div class="text-center">
+                    <img class="brand-logo" src="../img/ppdclogo.png" width="200" alt="ppdc-logo">
+                </div>
+            </div>
+        </div>
+        <!-- /. sidenav -->
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <br />
+            <h3><span id="ranking-year"></span>&nbsp; Rankings</h3>
+            <hr />
+            <ul class="nav md-pills pills-secondary">
+                <li class="nav-item">
+                    <a class="nav-link btn" data-toggle="tab" href="#panel11" role="tab">2015</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn" data-toggle="tab" href="#panel12" role="tab">2016</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn" data-toggle="tab" href="#panel13" role="tab">2017</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn" data-toggle="tab" href="#panel15" role="tab">2018</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn active" data-toggle="tab" href="#panel14" role="tab">2019</a>
+                </li>
+            </ul>
+            <hr />
+
+            <!-- Tab panels -->
+            <div class="container">
+                <div class="tab-content pt-0">
+
+                    <!--Panel 1-->
+                    <div class="tab-pane" id="panel11" role="tabpanel" style="height:50vh">
+                        <br>
+                        <p>2015 Rankings</p>
+                    </div>
+                    <!--/.Panel 1-->
+
+                    <!--Panel 2-->
+                    <div class="tab-pane fade" id="panel12" role="tabpanel" style="height:50vh">
+                        <br>
+                        <p>2016 Rankings</p>
+                    </div>
+                    <!--/.Panel 2-->
+
+                    <!--Panel 3-->
+                    <div class="tab-pane fade" id="panel13" role="tabpanel" style="height:50vh">
+                        <br>
+                        <p>2017 Rankings</p>
+                    </div>
+                    <!--/.Panel 3-->
+
+                    <!--Panel 5-->
+                    <div class="tab-pane fade" id="panel15" role="tabpanel" style="height:50vh">
+                        <br>
+                        <p>2018 Rankings</p>
+                    </div>
+                    <!--/.Panel 5-->
+
+                    <!--Panel 6-->
+                    <div class="tab-pane fade fade in show active" id="panel14" role="tabpanel">
+                        <br>
+
+                        <div class="section-tabs">
+                            <ul class="nav md-pills nav-justified pills-success">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#s-panel1" role="tab">Public
+                                        Institutions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#s-panel2" role="tab">Security
+                                        Institutions</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Search form -->
+                        <form class="form-inline md-form form-sm mt-0">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                            <input class="form-control form-control-sm ml-3 w-75" type="text"
+                                placeholder="Search Institution" aria-label="Search">
+                        </form>
+
+                        <!-- section panels -->
+                        <div class="tab-content pt-0">
+
+                            <!--section panel 1-->
+                            <div class="tab-pane fade in show active" id="s-panel1" role="tabpanel">
+                                <br>
+
+                                <div class="table-responsive text-wrap">
+
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>S/N</th>
+                                                <th>Name of Public Institution</th>
+                                                <th>Overall Ranking</th>
+                                                <th>Proactive Disclosure</th>
+                                                <th>Level of disclosure</th>
+                                                <th>Responsiveness to request for information</th>
+                                                <th>FOI Training</th>
+                                                <th>FOIDesk Officers</th>
+                                                <th>FOI Annual Report</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td><a href="./ranking-details.html">Lorem ipsum Commission</a></td>
+                                                <td>1st</td>
+                                                <td>
+                                                    <!--Dropdown primary-->
+                                                    <div class="dropdown">
+
+                                                        <!--Trigger-->
+                                                        <button class="btn btn-sm dropdown-toggle" type="button"
+                                                            id="dropdownMenu1" data-toggle="dropdown"
+                                                            aria-haspopup="true" aria-expanded="false">View</button>
+
+                                                        <!--Menu-->
+                                                        <div class="dropdown-menu dropdown-primary">
+                                                            <a class="dropdown-item" href="#">PPDC
+                                                                <span class="float-right green-text"><i
+                                                                        class="fas fa-circle"></i></span></a>
+                                                            <a class="dropdown-item" href="#">CODE
+                                                                <span class="float-right red-text"><i
+                                                                        class="fas fa-circle"></i></span></a>
+                                                            <a class="dropdown-item" href="#">BudgIT
+                                                                <span class="float-right yellow-text"><i
+                                                                        class="fas fa-circle"></i></span></a>
+                                                        </div>
+                                                    </div>
+                                                    <!--/Dropdown primary-->
+
+                                                </td>
+                                                <td class="text-warning">
+                                                    <i class="fas fa-circle fa-2x"></i>
+                                                </td>
+                                                <td>Some text</td>
+                                                <td>Some text</td>
+                                                <td>Some text</td>
+                                                <td>Some text</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td><a href="./ranking-details.html">Lorem ipsum Agency</a></td>
+                                                <td>1st</td>
+                                                <td>
+                                                    <!--Dropdown primary-->
+                                                    <div class="dropdown">
+
+                                                        <!--Trigger-->
+                                                        <button class="btn btn-sm dropdown-toggle" type="button"
+                                                            id="dropdownMenu1" data-toggle="dropdown"
+                                                            aria-haspopup="true" aria-expanded="false">View</button>
+
+                                                        <!--Menu-->
+                                                        <div class="dropdown-menu dropdown-primary">
+                                                            <a class="dropdown-item" href="#">PPDC
+                                                                <span class="float-right green-text"><i
+                                                                        class="fas fa-circle"></i></span></a>
+                                                            <a class="dropdown-item" href="#">CODE
+                                                                <span class="float-right red-text"><i
+                                                                        class="fas fa-circle"></i></span></a>
+                                                            <a class="dropdown-item" href="#">BudgIT
+                                                                <span class="float-right yellow-text"><i
+                                                                        class="fas fa-circle"></i></span></a>
+                                                        </div>
+                                                    </div>
+                                                    <!--/Dropdown primary-->
+
+                                                </td>
+                                                <td class="text-success">
+                                                    <i class="fas fa-circle fa-2x"></i>
+                                                </td>
+                                                <td>Some text</td>
+                                                <td>Some text</td>
+                                                <td>Some text</td>
+                                                <td>Some text</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td><a href="./ranking-details.html">Lorem ipsum Council</a></td>
+                                                <td>3rd</td>
+                                                <td>
+                                                    <!--Dropdown primary-->
+                                                    <div class="dropdown">
+
+                                                        <!--Trigger-->
+                                                        <button class="btn btn-sm dropdown-toggle" type="button"
+                                                            id="dropdownMenu1" data-toggle="dropdown"
+                                                            aria-haspopup="true" aria-expanded="false">View</button>
+
+                                                        <!--Menu-->
+                                                        <div class="dropdown-menu dropdown-primary">
+                                                            <a class="dropdown-item" href="#">PPDC
+                                                                <span class="float-right green-text"><i
+                                                                        class="fas fa-circle"></i></span></a>
+                                                            <a class="dropdown-item" href="#">CODE
+                                                                <span class="float-right red-text"><i
+                                                                        class="fas fa-circle"></i></span></a>
+                                                            <a class="dropdown-item" href="#">BudgIT
+                                                                <span class="float-right yellow-text"><i
+                                                                        class="fas fa-circle"></i></span></a>
+                                                        </div>
+                                                    </div>
+                                                    <!--/Dropdown primary-->
+
+                                                </td>
+                                                <td class="text-danger">
+                                                    <i class="fas fa-circle fa-2x"></i>
+                                                </td>
+                                                <td>Some text</td>
+                                                <td>Some text</td>
+                                                <td>Some text</td>
+                                                <td>Some text</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+
+
+                            </div>
+                            <!--/.sp 1-->
+
+                            <!--section panel 2-->
+                            <div class="tab-pane fade" id="s-panel2" role="tabpanel">
+                                <br>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima,
+                                    soluta doloribus
+                                    reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur.
+                                    Tempora, placeat ratione
+                                    porro voluptate odit minima.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima,
+                                    soluta doloribus
+                                    reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur.
+                                    Tempora, placeat ratione
+                                    porro voluptate odit minima.</p>
+
+                            </div>
+                            <!--/. sp 2-->
+
+                        </div>
+                    </div>
+                    <!--/.Panel 6-->
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small white pt-4 mt-5 z-depth-2">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left" id="footer-top">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 mt-md-0 mt-3 text-center">
+
+                    <!-- Content -->
+                    <h5 class="text-dark">With Support From</h5>
+                    <hr width="50" class="bg-dark" />
+
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col">
+                                <img src="../img/luminatelogo-sm.png" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="../img/maca.png" alt="">
+                            </div>
+                            <div class="col" style="margin-top: -2%;">
+                                <img src="../img/access.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center text-dark success-color py-3">&copy; 2019:
+            <a href="https://www.procurementmonitor.org/">PPDC</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
+    <!-- Custom script -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
