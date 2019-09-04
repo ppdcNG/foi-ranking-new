@@ -125,6 +125,10 @@ main #banner > div{
     background: linear-gradient(to right, rgb(12, 12, 12) 0%, transparent 70%);
 }
 
+#ranking-table th {
+    width: 20px;
+}
+
 #index-cards .card {
     width: 40%;
 }
