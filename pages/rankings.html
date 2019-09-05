@@ -23,8 +23,11 @@
         <!--Navbar -->
         <nav class="mb-1 navbar navbar-expand-lg ppdc-green-bg fixed-top">
 
-            <a class="navbar-brand brand-logo" href="../index.html">
-                <img src="../img/ppdclogo.png" alt="ppdc-logo" width="200">
+            <a class="navbar-brand" href="../index.html">
+                <h2>
+                    <i class="fas fa-fist-raised"></i> Freedom of Information<br />
+                    <small class="text-warning">Disclosure Ranking Portal</small>
+                </h2>
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
@@ -68,7 +71,10 @@
             <div class="container-fluid">
                 <span id="openSideNav" onclick="openNav()"><i class="fas fa-bars"></i></span>
                 <div class="text-center">
-                    <img class="brand-logo" src="../img/ppdclogo.png" width="200" alt="ppdc-logo">
+                    <h2>
+                        <i class="fas fa-fist-raised"></i> Freedom of Information<br />
+                        <small class="text-warning">Disclosure Ranking Portal</small>
+                    </h2>
                 </div>
             </div>
         </div>
@@ -164,18 +170,19 @@
 
                                 <div class="table-responsive text-wrap">
 
-                                    <table class="table table-hover" id="ranking-table">
+                                    <table class="table table-hover table-striped" id="ranking-table">
                                         <thead>
                                             <tr>
                                                 <th>S/N</th>
                                                 <th>Name of Public Institution</th>
                                                 <th>Overall Ranking</th>
+                                                <th>Points</th>
                                                 <th>Proactive Disclosure</th>
                                                 <th>Level of disclosure</th>
                                                 <th>Responsiveness to request for information</th>
                                                 <th>FOI Training</th>
                                                 <th>FOIDesk Officers</th>
-                                                <th>FOI Annual Report</th>
+                                                <th class="th-expand">FOI Annual Report</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -183,490 +190,489 @@
                                                 <th scope="row">1</th>
                                                 <td><a href="./ranking-details.html">Lorem ipsum Commission</a></td>
                                                 <td>1st</td>
-                                                <td>
-                                                    <div class="d-flex flex-row">
-                                                        <!-- <h2 class="">2019</h2> -->
-                                                        <div class="p-2">
-                                                            <a href="#">
-                                                                PPDC
-                                                                <span class="pl-3 green-text">
-                                                                    <i class="fas fa-circle"></i>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="d-flex flex-row">
-                                                        <!-- <h2 class="">2019</h2> -->
-                                                        <div class="p-2">
-                                                            <a href="#">
-                                                                PPDC
-                                                                <span class="pl-3 green-text">
-                                                                    <i class="fas fa-circle"></i>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="d-flex flex-row">
-                                                        <!-- <h2 class="">2019</h2> -->
-                                                        <div class="p-2">
-                                                            <a href="#">
-                                                                PPDC
-                                                                <span class="pl-3 green-text">
-                                                                    <i class="fas fa-circle"></i>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="d-flex flex-row">
-                                                        <!-- <h2 class="">2019</h2> -->
-                                                        <div class="p-2">
-                                                            <a href="#">
-                                                                PPDC
-                                                                <span class="pl-3 green-text">
-                                                                    <i class="fas fa-circle"></i>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
+                                                <td><span class="bg-dark border-rounded p-2 mt-2 text-light">10</span>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right red-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td><a href="./ranking-details.html">Lorem ipsum Agency</a></td>
                                                 <td>1st</td>
-                                                <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
-                                                    </div>
-                                                    <!--/Dropdown primary-->
-
+                                                <td><span class="bg-dark border-rounded p-2 mt-2 text-light">10</span>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right red-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td><a href="./ranking-details.html">Lorem ipsum Council</a></td>
                                                 <td>3rd</td>
-                                                <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
-                                                    </div>
-                                                    <!--/Dropdown primary-->
-
+                                                <td><span class="bg-dark border-rounded p-2 mt-2 text-light">10</span>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right red-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <!--Dropdown primary-->
-                                                    <div class="dropdown">
-
-                                                        <!--Trigger-->
-                                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                                            id="dropdownMenu1" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">View</button>
-
-                                                        <!--Menu-->
-                                                        <div class="dropdown-menu dropdown-primary">
-                                                            <a class="dropdown-item" href="#">PPDC
-                                                                <span class="float-right green-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">CODE
-                                                                <span class="float-right red-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                            <a class="dropdown-item" href="#">BudgIT
-                                                                <span class="float-right yellow-text"><i
-                                                                        class="fas fa-circle"></i></span></a>
-                                                        </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
                                                     </div>
-                                                    <!--/Dropdown primary-->
-
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        CODE
+                                                        <span class="float-right blue-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        BudgiT
+                                                        <span class="float-right yellow-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        PPDC
+                                                        <span class="float-right green-text">
+                                                            <i class="fas fa-circle"></i>
+                                                        </span>
+                                                    </div>
                                                 </td>
                                             </tr>
                                         </tbody>

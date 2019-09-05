@@ -11,7 +11,7 @@ body {
 }
 
 .ppdc-green-bg * {
-    color: #fff !important;
+    color: #fff;
 }
 
 .ppdc-green-text {
@@ -67,6 +67,9 @@ body {
     float: left;
     line-height: 2.5;
 }
+#sideNav h2 {
+    color: #fff;
+}
 
 .nav-item.active {
     background: #0d2e1e;
@@ -111,7 +114,7 @@ footer img {
 }
 
 main {
-    margin-top: 12vh;
+    margin-top: 14vh;
 }
 
 main #banner {
@@ -126,7 +129,11 @@ main #banner > div{
 }
 
 #ranking-table th {
-    width: 20px;
+    width: 25px;
+    text-align: center;
+}
+#ranking-table td {
+    text-align: center;
 }
 
 #index-cards .card {
@@ -183,6 +190,6 @@ main #banner > div{
     }
 }
 
-.brand-logo {
+/* .brand-logo {
     filter: brightness(0) invert(1);
-}
+} */
