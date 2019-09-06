@@ -158,6 +158,15 @@ main #banner > div{
     content:'\25BA';
 }
 
+.card-body .nav-pills {
+    list-style-type: none;
+}
+.card-body .nav-pills li::before {
+    content:'';
+}
+.nav-pills > li > a.active {
+    background-color: #006c37 !important;
+}
 /* media queries */
 
 @media screen and (max-height: 450px) {
