@@ -11,13 +11,17 @@
                     break;
                 }
 
-                // destructureout sections to be used
+                // destructure out sections to be used
+
                 // let bpsr = result["BUREAU OF PUBLIC SERVICE REFORMS (BPSR)"]
                 let { "BUREAU OF PUBLIC SERVICE REFORMS (BPSR)": bpsr } = result;
                 let { pro_dis, foi_officers, data, rank } = bpsr;
 
+                let { comments } = data[0];
+                $("#comments").html(comments)
+
                 if (pro_dis === "Partial Pro") {
-                    $("#pro_dis").html('<div class="bg-warning w-6 h-6 rounded-circle"></div>')
+                    $("#pro_dis").html('<div class="bg-warning w-6 h-6 rounded-circle"></div><p>Partial</p>')
                 }
 
                 // 
@@ -25,7 +29,7 @@
                 // 
                 function lvlDis(mda, id) {
                     if (mda === "full") {
-                        $(id).append('<li class="text-success">Full</li>')
+                        $(id).append('<li class="text-success">Full Disclosure</li>')
                     } else if (mda === "no") {
                         $(id).append('<li class="text-danger">No Disclosure</li>')
                     }
